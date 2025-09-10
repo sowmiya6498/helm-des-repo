@@ -11,7 +11,7 @@ pvc:
 # Frontend settings
 frontend:
   replicaCount: 1
-  image: "sowmiyahemanth/php-app:TAG"
+  image: "sowmiyahemanth/php-app:latest"
   containerPort: 80
   service:
     type: LoadBalancer
